@@ -1,0 +1,116 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "helveticaA", sans-serif;
+
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color: azure;
+    background: url(Roblox-Key.png); no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    color:#fff;
+    border-radius: 29px;
+    padding:20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    max-width: 1200px;
+    overflow: hidden;
+
+}
+.wrapper h1 {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding:20px 30px;
+    align-items:center;
+    
+}
+
+.wrapper .input-box {
+    position: relative;
+    height: 50px;
+    margin: 30px 20px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border:none;
+  outline: none;
+  font-size: 16px;
+  padding: 0 20px;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 30px;
+  color:#fff;
+}
+
+.input-box input::placeholder {
+    color:#fff;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+
+.remember-forgot a {
+    color:#fff;
+    text-decoration:none;
+    font-weight: 600;
+
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border:none;
+    background: #fff;
+    font-size: 16px;
+    outline:none;
+    cursor: pointer;
+    font-weight:600;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #333;
+}
+
+.btn:hover {
+    background:whitesmoke;
+}
+
+.register-link {
+    text-align: center;
+    padding: 25px 0
+}
+
+.register-link a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
